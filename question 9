@@ -1,0 +1,7 @@
+class Main {
+    public static void main(String[] args) {
+        String hex = "1A";
+        int num = Integer.parseInt(hex, 16);
+        System.out.println(num);
+    }
+}
