@@ -1,0 +1,8 @@
+import java.util.Scanner;
+    public class Main{
+        public static void main(String []agrs){
+            int a=789;
+            System.out.println(a/10);
+            
+        }
+    }
