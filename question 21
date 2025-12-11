@@ -1,0 +1,7 @@
+class Main {
+    public static void main(String[] args) {
+        int roll = 123;
+        String name = "John";
+        System.out.println("Roll No: " + roll + ", Name: " + name);
+    }
+}
