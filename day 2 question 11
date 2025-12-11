@@ -1,0 +1,8 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]agrs){
+        int n=234;
+       int middle=(n/10)%10;
+        System.out.println(middle);
+    }
+}
