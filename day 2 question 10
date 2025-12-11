@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]agrs){
+        int n=234;
+        int last=n%10;
+        int first=n/100;
+        System.out.println(first+last);
+    }
+}
