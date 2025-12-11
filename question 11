@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[]ags)
+    {
+        Scanner sc=new Scanner(System.in);
+        char a=sc.next().charAt(0);
+        int asciivalue=a;
+        System.out.println(asciivalue);
+    }
+}
