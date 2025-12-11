@@ -1,0 +1,11 @@
+import java.util. Scanner;
+public class Main{
+    public static void main (String[]agrs){
+        Scanner sc=new Scanner(System.in);
+        int a=20,b=30;
+        int temp=a;
+         a=b;
+         b=temp;
+        System.out.println(a+""+b);
+    }
+}
