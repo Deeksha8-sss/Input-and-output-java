@@ -1,0 +1,11 @@
+mport java.util. Scanner;
+public class Main{
+    public static void main (String[]agrs){
+        Scanner sc=new Scanner(System.in);
+        int a=2,b=30;
+        a=a+b;
+         b=a-b;
+        a=a-b;
+        System.out.println(a+""+b);
+    }
+}
