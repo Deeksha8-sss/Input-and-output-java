@@ -1,0 +1,7 @@
+ public class Main {
+    public static void main(String[] args) {
+        double l = 6, w = 4, h = 3;
+        System.out.println(2 * (l*w + w*h + h*l)); 
+        System.out.println(l * w * h);            
+    }
+}
