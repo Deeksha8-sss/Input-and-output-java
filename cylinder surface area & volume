@@ -1,0 +1,7 @@
+class Main {
+    public static void main(String[] args) {
+        double r = 4, h = 10;
+        System.out.println(2 * Math.PI * r * (r + h)); cy
+        System.out.println(Math.PI * r * r * h);       
+    }
+}
