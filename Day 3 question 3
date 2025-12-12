@@ -1,0 +1,13 @@
+class Main {
+    public Static void main (String []agrs)
+{
+Scanner sc=new Scanner (System.in);
+int num=sc.nextInt();
+if(num2%==0){
+            System.out.println("even");
+        } else {
+            System.out.println("odd");
+        }
+
+    }
+}
