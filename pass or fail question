@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]agrs){
+        Scanner sc=new Scanner(System.in);
+        int mark=sc.nextInt();
+        if(mark>=35)
+        System.out.println("pass");
+        else
+        System.out.print("fail");
+    }
+}
