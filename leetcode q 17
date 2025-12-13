@@ -1,0 +1,8 @@
+class Solution {
+    public boolean checkTree(TreeNode root) {
+        if (root == null || root.left == null || root.right == null) {
+            return false; 
+        }
+        return root.val == root.left.val + root.right.val;
+    }
+}
