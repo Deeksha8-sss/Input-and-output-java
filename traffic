@@ -1,0 +1,15 @@
+public class TrafficLight {
+    public static void main(String[] args) {
+        String color = "Red";
+
+        if (color.equalsIgnoreCase("Red")) {
+            System.out.println("Stop");
+        } else if (color.equalsIgnoreCase("Yellow")) {
+            System.out.println("Ready");
+        } else if (color.equalsIgnoreCase("Green")) {
+            System.out.println("Go");
+        } else {
+            System.out.println("Invalid color");
+        }
+    }
+}
