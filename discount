@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main{
+public Static void main(String[]agrs)
+  Scanner sc=new Scanner(System.in);
+int bill =sc.nextInt();
+double discout;
+if(bill>=5400)
+discount=bill*0.20;
+else if(bill>=3500)
+discount=bill*0.10;
+else
+   discount=bill*0.05;
+System.out.println(+ discount);
+  }
+}
