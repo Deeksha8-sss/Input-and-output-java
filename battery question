@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main{
+public Static void main(String[]agrs){
+  Scanner sc=new Scanner(System.in);
+int percent=sc.nextInt():
+if(percent<=20)
+System.out.println("low battery");
+        else if(percent<=50)
+        System.out.println("50 battery");
+        else
+        System.out.println("full battery");
+    }
+}
