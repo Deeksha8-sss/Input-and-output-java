@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Static void main(String[]agrs){
+Scanner sc.new Scanner(System.in);
+int age=sc.nextInt():
+if(age>=28)
+System.out.println("eligbile to vote")
+else
+System.out.println("not eligbile ")
+    }
+}
