@@ -1,0 +1,17 @@
+public class Solution {
+
+    public boolean isPowerOfTwo(int n) {
+        // A power of two has exactly one bit set.
+        return n > 0 && (n & (n - 1)) == 0;
+    }
+
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+
+        int[] tests = {1, 16, 3, 0, -2, 1024, 2048};
+
+        for (int n : tests) {
+            System.out.println(n + " -> " + sol.isPowerOfTwo(n));
+        }
+    }
+}
