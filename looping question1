@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main{
+  public Static void main(String[]agrs){
+   Scanner sc=new Scanner(System.in);
+int n=sc.nextInt():
+while(n>=10){
+  n=n/10;
+}
+System.out.println(n);
+    }
+}
