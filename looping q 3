@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main{
+public Static void main(String[]agrs){
+  Scanner sc=new Scanner(System.in);
+   int num=sc.nextInt();
+   int digit=sc.nextInt();
+  while(num>0){
+if(num%10==digit){
+   System.out.println("yes");
+        return;
+        }
+num=num/10;
+       }
+System.out.println("no");
+    }
+}
