@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main{
+public Static viod main(String[]agrs){
+Scanner sc.new Scanner(System.in);
+ int num=sc.nextInt();
+   int countsc.nextInt();
+  while(num>0){
+  if(num%10==count){
+  count++;
+  }
+num=num/10;
+  }
+System.out.println(count);
+  }
+}
