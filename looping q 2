@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main{
+ public Static void main(String[]agrs){
+  Scanner sc=new Scanner(System.in){
+while(n>=10){
+   n=n/10;
+}
+ if(n%2==0)
+System.out.println("even");
+else 
+  System.out.println("odd");
+    }
+}
