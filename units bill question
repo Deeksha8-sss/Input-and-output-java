@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]agrs){
+        Scanner sc=new Scanner(System.in);
+        int units=sc.nextInt();
+        int bills;
+        if(units<=100)
+        bills=units*5;
+        else if (units<=200)
+        bills=100*5+(units-100)*7;
+        else 
+        bills=100*5+100*7+(units-200)*10;
+        System.out.println(bills);
+
+
+    }
+}
